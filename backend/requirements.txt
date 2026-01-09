@@ -20,8 +20,7 @@ aiohttp==3.9.1
 # Data Processing
 pandas==2.2.0
 numpy==1.26.3
-ta-lib==0.4.28  # Technical Analysis Library (optional, requires system lib)
-pandas-ta==0.3.14b0  # Alternative to ta-lib
+# Technical indicators are implemented manually in services/technical_analysis.py
 
 # Sentiment Analysis
 textblob==0.17.1
